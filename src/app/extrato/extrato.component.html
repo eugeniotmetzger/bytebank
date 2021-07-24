@@ -1,0 +1,14 @@
+<table>
+  <thead>
+    <th>Data</th>
+    <th>Valor</th>
+    <th>Destino</th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let trasferencia of trasferencias">
+      <td>{{trasferencia.data | date:"short"}}</td>
+      <td>{{trasferencia.valor}}</td>
+      <td>{{trasferencia.destino}}</td>
+    </tr>
+  </tbody>
+</table>
