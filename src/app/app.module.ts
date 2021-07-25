@@ -1,5 +1,5 @@
 import { NovaTrasferenciaComponent } from './nova-trasferencia/nova-trasferencia.component';
-import { LOCALE_ID, NgModule } from '@angular/core';
+import { DEFAULT_CURRENCY_CODE, LOCALE_ID, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
@@ -21,7 +21,11 @@ registerLocaleData(localePt,'pt');
     FormsModule
   ],
   providers: [
-    {provide: LOCALE_ID, useValue:'pt'}
+    {provide: LOCALE_ID, useValue:'pt'},
+    {
+      provide: DEFAULT_CURRENCY_CODE,
+      useValue: 'BRL'
+    }
   ],
   bootstrap: [AppComponent]
 })
