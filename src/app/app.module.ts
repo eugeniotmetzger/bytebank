@@ -1,4 +1,4 @@
-import { NovaTrasferenciaComponent } from './nova-trasferencia/nova-trasferencia.component';
+import { NovaTransferenciaComponent } from './nova-trasferencia/nova-transferencia.component';
 import { DEFAULT_CURRENCY_CODE, LOCALE_ID, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -13,7 +13,7 @@ registerLocaleData(localePt,'pt');
 @NgModule({
   declarations: [
     AppComponent,
-    NovaTrasferenciaComponent,
+    NovaTransferenciaComponent,
     ExtratoComponent,
   ],
   imports: [
