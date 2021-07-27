@@ -1,4 +1,4 @@
-import { TrasferenciaService } from './services/Transferencia.service';
+import { TransferenciaService } from './services/transferencia.service';
 import { Component } from '@angular/core';
 
 @Component({
@@ -11,7 +11,7 @@ export class AppComponent {
 
 
 
-  constructor (private service: TrasferenciaService){
+  constructor (private service: TransferenciaService){
 
   }
 

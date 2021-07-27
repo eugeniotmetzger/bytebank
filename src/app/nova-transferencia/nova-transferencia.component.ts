@@ -3,8 +3,8 @@ import { EventEmitter } from "@angular/core";
 
 @Component({
   selector:'app-nova-transferencia',
-  templateUrl:'./nova-trasferencia.componete.html',
-  styleUrls:['./nova-trasferencia.component.scss']
+  templateUrl:'./nova-transferencia.componet.html',
+  styleUrls:['./nova-transferencia.component.scss']
 
 })
 
