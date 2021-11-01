@@ -2,6 +2,6 @@ export interface transferencia{
 
   id?: number | string;
   valor: number;
-  destino: string;
+  destino: number |string;
   data?: string;
 }

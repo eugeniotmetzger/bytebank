@@ -20,7 +20,7 @@ registerLocaleData(localePt,'pt');
   imports: [
     BrowserModule,
     FormsModule,
-    HttpClientJsonpModule
+    HttpClientJsonpModule,
   ],
   providers: [
     {provide: LOCALE_ID, useValue:'pt'},

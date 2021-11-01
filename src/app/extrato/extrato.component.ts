@@ -1,4 +1,4 @@
-import { transferencia } from './../models/transferencia.model';
+import { transferencia } from './../model/transferencia.model';
 import { Component, Input, OnInit } from '@angular/core';
 import { TransferenciaService } from '../services/transferencia.service';
 
